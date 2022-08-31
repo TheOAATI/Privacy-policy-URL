@@ -1,1 +1,3 @@
-# Privacy-policy-URL
+My app is a desktop application ( Winui 3 ) , And I have used runFullTrust capability to make the customer able to shutdown , restart , sleep and more power option using my app because its an alternative of system32 with fresh design.
+
+And Also it will not acess any information because its offline application
