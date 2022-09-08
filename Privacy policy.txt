@@ -6,4 +6,6 @@ My application is windows Desktop app made by winui3 , I have Used that because 
 Severity	Code	Description	Project	File	Line	Suppression State
 Error		DEP0700: Registration of the app failed. [0x80080204] error 0x80080204: App manifest validation error: Line 25, Column 6, Reason: The element specified requires "runFullTrust" capability.		
 
-and here is an proof video : 
+and here is an proof video : https://drive.google.com/file/d/1RFeCk6ybln5VYRN5m1Rk9s325ewdFVJo/view?usp=sharing
+
+And also its an offline application so it cant share any data.
