@@ -1,3 +1,9 @@
-My app is a desktop application ( Winui 3 ) , And I have used runFullTrust capability to make the customer able to shutdown , restart , sleep and more power option using my app because its an alternative of system32 with fresh design.
+I have made that app as Windows ALT + F4 power menu but redesigned by me with some new features like slidetoshutdown , open task manger and open the Hidden explorer and I have test that features in windows 11 and all is work.
+Important Note : The app size is stable as the photo and you can see app size in the code from shared link below under public main window ;
 
-And Also it will not acess any information because its offline application
+My application is windows Desktop app made by winui3 , I have Used that because I cant use cmd as admin to Shutdown or restart or slidetoshutodwn etc..  in UWP, I have used process.start(); Argument to start the action shutdown , restart etc. on selection changed of the combo box just , And not to get the user info etc. , And My application is offline and I cant remove the "<rescap:Capability Name="runFullTrust" />" and if i removed or if anyone remove this Capability we will get this erorr :
+
+Severity	Code	Description	Project	File	Line	Suppression State
+Error		DEP0700: Registration of the app failed. [0x80080204] error 0x80080204: App manifest validation error: Line 25, Column 6, Reason: The element specified requires "runFullTrust" capability.		
+
+and here is an proof video : 
